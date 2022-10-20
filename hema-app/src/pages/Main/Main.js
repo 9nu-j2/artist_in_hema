@@ -1,5 +1,7 @@
 import "./Main.css";
 
+import Footbar from "../../components/Footbar";
+
 import note from "../../img/note.svg";
 import logo from "../../img/logo.svg";
 import left from "../../img/left.svg";
@@ -48,6 +50,7 @@ function Main() {
       <Div1></Div1>
       <Div2></Div2>
       <Div3 카드={카드} 카드변경={카드변경} 랜덤아이디={랜덤아이디}></Div3>
+      <Footbar></Footbar>
     </div>
   );
 }
@@ -157,7 +160,7 @@ function Div3(props) {
         </div>
       </div>
       <div className="Join">
-        <a href="/register">Are you a member of this community?</a>
+        <a href="/register">이 동아리의 멤버인데 등록이 안되셨나요?</a>
       </div>
     </div>
   );

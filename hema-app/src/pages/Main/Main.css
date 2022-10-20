@@ -17,10 +17,10 @@
   overflow: hidden;
 }
 
-.Mainimage{
-  width:100%;
-  height:100%;
-  object-fit:cover;
+.Mainimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .Ssentence {
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   text-align: left;
-  color:white;
+  color: white;
   top: 80px;
   left: 40px;
 }
@@ -42,7 +42,7 @@
 }
 
 .Logo img {
-  width:80px;
+  width: 80px;
 }
 
 .Small1 {
@@ -56,7 +56,7 @@
 }
 
 .Small2 {
-  color: #FF8000;
+  color: #ff8000;
   font-weight: 800;
   font-size: 64px;
   line-height: 77px;
@@ -119,7 +119,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .Title {
@@ -162,9 +162,9 @@
 }
 
 .Clef img {
-  width:100%;
-  height:100%;
-  object-fit:cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .Note {
@@ -181,11 +181,11 @@
   justify-content: space-between;
 }
 
-.Note .ThisNote img{
+.Note .ThisNote img {
   font-size: 0px;
 }
 
-.Note .ThisNote .About{
+.Note .ThisNote .About {
   font-weight: 500;
   font-size: 24px;
   line-height: 24px;
@@ -202,7 +202,7 @@
   position: relative;
   width: 100%;
   height: 100vh;
-  background: #F9F9F9;
+  background: #f9f9f9;
 }
 
 .CardTitle {
@@ -211,7 +211,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .CardPart {
@@ -221,7 +221,7 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  text-align: center; 
+  text-align: center;
 }
 
 .Join {
@@ -236,7 +236,7 @@
 
 .Join a {
   text-decoration: none;
-  color: #616875;
+  color: black;
 }
 
 .Card {
@@ -260,7 +260,7 @@
   width: 30px;
   height: 30px;
   border: none;
-  background-color: #F9F9F9;
+  background-color: #f9f9f9;
   cursor: pointer;
 }
 
@@ -292,14 +292,13 @@
   overflow: hidden;
   z-index: 2;
   border-radius: 30px;
-  box-shadow:  10px 10px 20px #bebebe,
-              -10px -10px 20px #2c2c2c;
+  box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #2c2c2c;
 }
 
 .Profile1 img {
-  width:100%;
-  height:100%;
-  object-fit:cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #card1 {
@@ -317,21 +316,20 @@
   z-index: 3;
   overflow: hidden;
   border-radius: 30px;
-  box-shadow:  5px 5px 10px #bebebe,
-              -10px -10px 20px #2c2c2c;
+  box-shadow: 5px 5px 10px #bebebe, -10px -10px 20px #2c2c2c;
 }
 
 .Profile2 img {
-  width:100%;
-  height:100%;
-  object-fit:cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-#card2{
+#card2 {
   right: 50%;
 }
 
-#card4{
+#card4 {
   left: 50%;
 }
 
@@ -341,14 +339,13 @@
   z-index: 4;
   overflow: hidden;
   border-radius: 30px;
-  box-shadow:  5px 5px 10px #bebebe,
-              -10px -10px 20px #2c2c2c;
+  box-shadow: 5px 5px 10px #bebebe, -10px -10px 20px #2c2c2c;
 }
 
 .Profile3 img {
-  width:100%;
-  height:100%;
-  object-fit:cover; 
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .Members {
@@ -381,10 +378,7 @@
   color: #61dafb;
 }
 
-
-
-
-@keyframes fadein{
+@keyframes fadein {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -395,18 +389,18 @@
   }
 }
 
-/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/ 
-@media all and (min-width:768px) and (max-width:1023px) {
+/* PC , 테블릿 가로 (해상도 768px ~ 1023px)*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
   /*스타일입력*/
-} 
+}
 
-/* 테블릿 세로 (해상도 768px ~ 1023px)*/ 
-@media all and (min-width:768px) and (max-width:1023px) {
+/* 테블릿 세로 (해상도 768px ~ 1023px)*/
+@media all and (min-width: 768px) and (max-width: 1023px) {
   /*스타일입력*/
-} 
+}
 
-/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/ 
-@media all and (min-width:480px) and (max-width:767px) {
+/* 모바일 가로, 테블릿 세로 (해상도 480px ~ 767px)*/
+@media all and (min-width: 480px) and (max-width: 767px) {
   /*스타일입력*/
   .Logobox {
     position: absolute;
@@ -414,15 +408,15 @@
     bottom: 40px;
     right: 20px;
   }
-  
+
   .Logobox img {
     margin-left: 40px;
     height: 30px;
     width: 30px;
   }
-} 
+}
 
-/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/ 
-@media all and (max-width:479px) {
+/* 모바일 가로, 테블릿 세로 (해상도 ~ 479px)*/
+@media all and (max-width: 479px) {
   /*스타일입력*/
 }
