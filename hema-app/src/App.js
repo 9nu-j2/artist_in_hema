@@ -1,13 +1,12 @@
-import './App.css';
+import "./App.css";
 
-import Main from './Main/Main.js';
-import Members from './Members/Members2.js';
-import Register from './Register/Register.js';
+import Main from "./pages/Main/Main.js";
+import Members from "./pages/Members/Members2.js";
+import Register from "./pages/Register/Register.js";
 
-import { Route, Routes } from 'react-router-dom';
+import { Route, Routes } from "react-router-dom";
 
 function App() {
-
   return (
     <div className="App">
       <Routes>
